@@ -1,7 +1,5 @@
 package com.mmblspace.meta.mvvm;
 
-import com.mmblspace.meta.Vote;
-
 import java.util.Scanner;
 
 public class VoteView {

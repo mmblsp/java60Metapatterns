@@ -10,7 +10,7 @@ public class VoteViewModel {
     private  VoteModel model;
 
     public void sendVote(boolean isAgree, boolean isPresent, String fio){
-        Vote vote = new Vote(isAgree, isAgree, fio);
+        Vote vote = new Vote(isAgree, isPresent, fio);
         model.sendVote(vote);
     }
     public String calculateResults(){

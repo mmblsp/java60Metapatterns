@@ -11,10 +11,6 @@ public class VoteView {
         this.voteController = voteController;
     }
 
-    public VoteView(VoteController voteController) {
-        this.voteController = voteController;
-    }
-
     public void show() {
         System.out.println(results);
     }

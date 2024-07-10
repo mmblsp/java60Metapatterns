@@ -1,7 +1,5 @@
 package com.mmblspace.meta.mvvm;
 
-import com.mmblspace.meta.mvp.VotePresenter;
-
 public class Main {
     public static void main(String[] args) {
         VoteView voteView = new VoteView();

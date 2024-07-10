@@ -1,9 +1,9 @@
 package com.mmblspace.meta;
 
 public class Vote {
-    private boolean value;
-    private boolean present;
-    private String fio;
+    private final boolean value;
+    private final boolean present;
+    private final String fio;
 
     public Vote(boolean value, boolean present, String fio) {
         this.value = value;
@@ -16,18 +16,6 @@ public class Vote {
 
     public boolean isPresent(){
         return present;
-    }
-
-    public void setValue(boolean value) {
-        this.value = value;
-    }
-
-    public String getFio() {
-        return fio;
-    }
-
-    public void setPresent(boolean present) {
-        this.present = present;
     }
 
     @Override

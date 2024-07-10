@@ -5,7 +5,7 @@ import com.mmblspace.meta.Vote;
 import java.util.Scanner;
 
 public class VoteController {
-    private VoteModel voteModel;
+    private final VoteModel voteModel;
 
     public VoteController(VoteModel voteModel) {
         this.voteModel = voteModel;

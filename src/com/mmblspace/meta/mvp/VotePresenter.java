@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class VotePresenter {
-    private VoteView voteView;
-    private VoteModel voteModel;
+    private final VoteView voteView;
+    private final VoteModel voteModel;
 
     public VotePresenter(VoteView voteView, VoteModel voteModel) {
         this.voteView = voteView;

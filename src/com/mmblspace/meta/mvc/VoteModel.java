@@ -41,16 +41,4 @@ public class VoteModel {
             sb.append(summary);
         return sb.toString();
     }
-
-    public long getSummaryPositive() {
-        return summaryPositive;
-    }
-
-    public long getSummaryNegative() {
-        return summaryNegative;
-    }
-
-    public long getSummary() {
-        return summary;
-    }
 }

@@ -11,7 +11,7 @@ public class VoteModel {
     private  long summaryNegative;
     private long summary;
 
-    public boolean sendVote(Vote vote) {
+    public void sendVote(Vote vote) {
         votes.add(vote);
 
         if (vote.isPresent()) {
@@ -22,16 +22,6 @@ public class VoteModel {
                 summaryNegative++;
             }
         }
-
-        return vote.isValue();
-    }
-
-    public long getSummaryPositive() {
-        return summaryPositive;
-    }
-
-    public long getSummaryNegative() {
-        return summaryNegative;
     }
 
     public long getSummary() {
